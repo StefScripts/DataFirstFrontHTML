@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Terms of Service - DataFirst SEO</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --primary-color: #2563eb;
+        --primary-dark: #1e40af;
+        --primary-light: #3b82f6;
+        --accent-color: #f59e0b;
+        --text-color: #1f2937;
+        --bg-light: #f9fafb;
+        --bg-dark: #111827;
+      }
+
+      body {
+        font-family: 'Poppins', sans-serif;
+        color: var(--text-color);
+        line-height: 1.7;
+        scroll-behavior: smooth;
+      }
+
+      h1,
+      h2,
+      h3,
+      h4 {
+        font-family: 'Montserrat', sans-serif;
+      }
+
+      .gradient-bg {
+        background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-dark) 100%);
+      }
+
+      .gradient-text {
+        background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-light) 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+
+      .sticky-nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        transition: all 0.3s ease;
+        z-index: 1000;
+      }
+
+      .nav-scrolled {
+        background-color: white;
+        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+      }
+
+      .footer-link {
+        transition: all 0.3s ease;
+      }
+
+      .footer-link:hover {
+        transform: translateX(5px);
+      }
+    </style>
+  </head>
+  <body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav id="navbar" class="sticky-nav px-6 py-4 bg-white">
+      <div class="container mx-auto flex justify-between items-center">
+        <a href="index.html" class="flex items-center">
+          <div class="text-3xl font-bold"><span class="text-blue-600">Data</span><span class="text-gray-800">First</span></div>
+        </a>
+
+        <div class="hidden lg:flex space-x-8">
+          <a href="index.html#services" class="text-gray-800 hover:text-blue-600 font-medium transition-colors">Services</a>
+          <a href="index.html#about" class="text-gray-800 hover:text-blue-600 font-medium transition-colors">About</a>
+          <a href="index.html#blog" class="text-gray-800 hover:text-blue-600 font-medium transition-colors">Blog</a>
+          <a href="index.html#contact" class="text-gray-800 hover:text-blue-600 font-medium transition-colors">Contact</a>
+        </div>
+
+        <div class="hidden lg:block">
+          <a href="index.html#contact" class="bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-6 rounded-full transition-colors">
+            Get Free Consultation
+          </a>
+        </div>
+
+        <button id="mobile-menu-button" class="lg:hidden text-gray-800">
+          <i class="fas fa-bars text-2xl"></i>
+        </button>
+      </div>
+
+      <!-- Mobile Menu -->
+      <div id="mobile-menu" class="lg:hidden hidden bg-white absolute left-0 right-0 shadow-lg z-20">
+        <div class="container mx-auto px-6 py-4 space-y-4">
+          <a href="index.html#services" class="block text-gray-800 hover:text-blue-600 font-medium transition-colors">Services</a>
+          <a href="index.html#about" class="block text-gray-800 hover:text-blue-600 font-medium transition-colors">About</a>
+          <a href="index.html#blog" class="block text-gray-800 hover:text-blue-600 font-medium transition-colors">Blog</a>
+          <a href="index.html#contact" class="block text-gray-800 hover:text-blue-600 font-medium transition-colors">Contact</a>
+          <a
+            href="index.html#contact"
+            class="block bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-6 rounded-full transition-colors text-center"
+          >
+            Get Free Consultation
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="bg-blue-600 py-16 md:py-24 text-white">
+      <div class="container mx-auto px-6 relative">
+        <div class="max-w-4xl mx-auto">
+          <h1 class="text-3xl md:text-4xl lg:text-5xl font-extrabold mb-4">Terms of Service</h1>
+          <p class="text-xl text-blue-100 max-w-3xl">Please read these terms and conditions carefully before using our services.</p>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <section class="py-16 bg-white">
+      <div class="container mx-auto px-6">
+        <div class="max-w-4xl mx-auto">
+          <div class="prose prose-lg">
+            <div class="mb-12">
+              <h2 class="text-2xl font-bold mb-6 text-blue-600">1. Introduction</h2>
+              <p class="mb-4">
+                These Terms of Service ("Terms") govern your use of the website, services, and products offered by DataFirst SEO ("we," "us," or
+                "our"). By accessing our website at <a href="index.html" class="text-blue-600 hover:underline">datafirstseo.com</a> or using our
+                services, you agree to be bound by these Terms.
+              </p>
+              <p class="mb-4">
+                We reserve the right to modify these Terms at any time. Your continued use of our services after any changes indicates your acceptance
+                of the modified Terms.
+              </p>
+            </div>
+
+            <div class="mb-12">
+              <h2 class="text-2xl font-bold mb-6 text-blue-600">2. Service Description</h2>
+              <p class="mb-4">
+                DataFirst SEO provides search engine optimization (SEO) and related digital marketing services to business-to-business (B2B)
+                companies. Our services may include, but are not limited to, technical SEO audits, keyword research, content strategy, on-page
+                optimization, link building, and analytics.
+              </p>
+              <p class="mb-4">
+                We commit to using ethical, "white hat" SEO practices that comply with search engine guidelines. However, we cannot guarantee specific
+                rankings or results, as search engines frequently update their algorithms and ranking factors.
+              </p>
+            </div>
+
+            <div class="mb-12">
+              <h2 class="text-2xl font-bold mb-6 text-blue-600">3. Client Obligations</h2>
+              <p class="mb-4">As a client, you agree to:</p>
+              <ul class="list-disc ml-6 mb-4 space-y-2">
+                <li>Provide accurate information about your business and website</li>
+                <li>Respond to our communications in a timely manner</li>
+                <li>Provide necessary access to your website, analytics, and other platforms as required to perform our services</li>
+                <li>Implement recommendations in a timely manner or authorize us to implement them</li>
+                <li>Use our services only for lawful purposes and in compliance with all applicable laws</li>
+              </ul>
+              <p class="mb-4">
+                We reserve the right to terminate services if you engage in activities that violate search engine guidelines or may damage our
+                reputation.
+              </p>
+            </div>
+
+            <div class="mb-12">
+              <h2 class="text-2xl font-bold mb-6 text-blue-600">4. Payment Terms</h2>
+              <p class="mb-4">Payment terms will be outlined in your service agreement or proposal. Unless otherwise specified:</p>
+              <ul class="list-disc ml-6 mb-4 space-y-2">
+                <li>Monthly services require payment in advance</li>
+                <li>Project-based services may require a deposit before work begins</li>
+                <li>Payment methods include credit card, direct deposit, and electronic funds transfer</li>
+                <li>Late payments may result in service suspension</li>
+                <li>We reserve the right to change our pricing with 30 days' notice</li>
+              </ul>
+            </div>
+
+            <div class="mb-12">
+              <h2 class="text-2xl font-bold mb-6 text-blue-600">5. Intellectual Property</h2>
+              <p class="mb-4">
+                All materials, strategies, reports, and deliverables created by DataFirst SEO remain our intellectual property until full payment is
+                received. After payment, clients receive a limited license to use these materials for their business purposes.
+              </p>
+              <p class="mb-4">
+                We respect intellectual property rights and expect our clients to do the same. Content created for your website should not infringe on
+                any third-party rights.
+              </p>
+            </div>
+
+            <div class="mb-12">
+              <h2 class="text-2xl font-bold mb-6 text-blue-600">6. Confidentiality</h2>
+              <p class="mb-4">
+                We treat client information as confidential and will not disclose sensitive business information to third parties without consent,
+                except as required by law.
+              </p>
+              <p class="mb-4">
+                We may feature your business as a client in our marketing materials unless you explicitly opt out. This may include general
+                information about services provided and results achieved.
+              </p>
+            </div>
+
+            <div class="mb-12">
+              <h2 class="text-2xl font-bold mb-6 text-blue-600">7. Limitation of Liability</h2>
+              <p class="mb-4">
+                To the maximum extent permitted by law, DataFirst SEO shall not be liable for any indirect, incidental, special, consequential, or
+                punitive damages resulting from your use of our services.
+              </p>
+              <p class="mb-4">
+                Our total liability for any claims arising under these Terms shall not exceed the amount paid by you for the services in the six
+                months preceding the claim.
+              </p>
+              <p class="mb-4">
+                We do not guarantee specific results, including rankings, traffic increases, or revenue growth, as these depend on many factors beyond
+                our control.
+              </p>
+            </div>
+
+            <div class="mb-12">
+              <h2 class="text-2xl font-bold mb-6 text-blue-600">8. Term and Termination</h2>
+              <p class="mb-4">The term of our services will be specified in your service agreement. For ongoing services:</p>
+              <ul class="list-disc ml-6 mb-4 space-y-2">
+                <li>Either party may terminate with 30 days' written notice</li>
+                <li>We may terminate immediately if you breach these Terms</li>
+                <li>You remain responsible for payment of services rendered prior to termination</li>
+                <li>Upon termination, we will provide a reasonable transition period to transfer necessary information</li>
+              </ul>
+            </div>
+
+            <div class="mb-12">
+              <h2 class="text-2xl font-bold mb-6 text-blue-600">9. Governing Law</h2>
+              <p class="mb-4">
+                These Terms shall be governed by and construed in accordance with the laws of British Columbia, Canada, without regard to its conflict
+                of law provisions.
+              </p>
+              <p class="mb-4">Any disputes arising under these Terms shall be resolved exclusively in the courts of British Columbia, Canada.</p>
+            </div>
+
+            <div class="mb-12">
+              <h2 class="text-2xl font-bold mb-6 text-blue-600">10. Contact Information</h2>
+              <p class="mb-4">If you have any questions about these Terms, please contact us at:</p>
+              <p class="mb-4">
+                DataFirst SEO<br />
+                #209-418 East Broadway<br />
+                Vancouver, BC V5T 1X2<br />
+                Email: <a href="mailto:stefan@datafirstseo.com" class="text-blue-600 hover:underline">stefan@datafirstseo.com</a><br />
+                Phone: (604) 555-1234
+              </p>
+            </div>
+
+            <div class="mb-12">
+              <h2 class="text-2xl font-bold mb-6 text-blue-600">11. Changes to Terms</h2>
+              <p class="mb-4">
+                These Terms were last updated on March 28, 2025. We reserve the right to update or change these Terms at any time. We will provide
+                notice of any significant changes through our website or by email.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white pt-16 pb-8">
+      <div class="container mx-auto px-6">
+        <div class="grid xl:grid-cols-4 md:grid-cols-2 gap-12">
+          <div class="col-span-1 lg:col-span-1">
+            <div class="text-3xl font-bold mb-6"><span class="text-blue-400">Data</span><span>First</span></div>
+            <p class="text-gray-400 mb-6">Helping B2B companies transform their digital presence into a predictable source of revenue.</p>
+            <div class="flex space-x-4">
+              <a
+                href="https://ca.linkedin.com/company/datafirstseo"
+                class="bg-gray-800 hover:bg-blue-600 w-10 h-10 rounded-full flex items-center justify-center transition-colors"
+              >
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+              <a
+                href="https://www.facebook.com/DataFirstSEO"
+                class="bg-gray-800 hover:bg-blue-600 w-10 h-10 rounded-full flex items-center justify-center transition-colors"
+              >
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </div>
+          </div>
+
+          <div>
+            <h4 class="text-xl font-bold mb-6">Services</h4>
+            <ul class="space-y-3">
+              <li><a href="index.html#services" class="text-gray-400 hover:text-white footer-link block">Technical SEO</a></li>
+              <li><a href="index.html#services" class="text-gray-400 hover:text-white footer-link block">Keyword Research</a></li>
+              <li><a href="index.html#services" class="text-gray-400 hover:text-white footer-link block">Content Strategy</a></li>
+              <li><a href="index.html#services" class="text-gray-400 hover:text-white footer-link block">On-Page Optimization</a></li>
+              <li><a href="index.html#services" class="text-gray-400 hover:text-white footer-link block">Link Building</a></li>
+              <li><a href="index.html#services" class="text-gray-400 hover:text-white footer-link block">Analytics & Reporting</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 class="text-xl font-bold mb-6">Resources</h4>
+            <ul class="space-y-3">
+              <li><a href="index.html#blog" class="text-gray-400 hover:text-white footer-link block">Blog</a></li>
+              <li><a href="#" class="text-gray-400 hover:text-white footer-link block">Guides & Ebooks</a></li>
+              <li><a href="#" class="text-gray-400 hover:text-white footer-link block">SEO Calculator</a></li>
+              <li><a href="#" class="text-gray-400 hover:text-white footer-link block">Industry Reports</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 class="text-xl font-bold mb-6">Contact</h4>
+            <ul class="space-y-3 text-gray-400">
+              <li class="flex items-start">
+                <i class="fas fa-map-marker-alt mt-1 mr-3"></i>
+                <span>#209-418 East Broadway<br />Vancouver, BC V5T 1X2</span>
+              </li>
+              <li class="flex items-start">
+                <i class="fas fa-envelope mt-1 mr-3"></i>
+                <a href="mailto:stefan@datafirstseo.com" class="hover:text-white transition-colors">stefan@datafirstseo.com</a>
+              </li>
+              <li class="flex items-start">
+                <i class="fas fa-phone mt-1 mr-3"></i>
+                <span>(604) 555-1234</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="mt-12 pt-8 border-t border-gray-800 text-center">
+          <p class="text-gray-400">&copy; 2025 DataFirst SEO. All rights reserved.</p>
+          <div class="mt-4 flex justify-center space-x-6">
+            <a href="terms-of-service.html" class="text-sm text-white hover:text-blue-400">Terms of Service</a>
+            <a href="privacy-policy.html" class="text-sm text-gray-400 hover:text-white">Privacy Policy</a>
+            <a href="#" class="text-sm text-gray-400 hover:text-white">Sitemap</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+      // Initialize AOS
+      AOS.init({
+        duration: 800,
+        easing: 'ease-in-out',
+        once: true
+      });
+
+      // Mobile menu toggle
+      const mobileMenuButton = document.getElementById('mobile-menu-button');
+      const mobileMenu = document.getElementById('mobile-menu');
+
+      mobileMenuButton.addEventListener('click', () => {
+        mobileMenu.classList.toggle('hidden');
+      });
+
+      // Navbar scroll effect
+      const navbar = document.getElementById('navbar');
+
+      window.addEventListener('scroll', () => {
+        if (window.scrollY > 50) {
+          navbar.classList.add('nav-scrolled');
+        } else {
+          navbar.classList.remove('nav-scrolled');
+        }
+      });
+    </script>
+  </body>
+</html>
