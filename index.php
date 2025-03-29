@@ -1,67 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>DataFirst SEO - B2B SEO Solutions</title>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@700;800;900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="css/styles.css" />
-  </head>
-  <body class="bg-gray-50">
-    <!-- Navigation -->
-    <nav id="navbar" class="sticky-nav px-6 py-4 bg-transparent">
-      <div class="container mx-auto flex justify-between items-center">
-        <a href="#" class="flex items-center">
-          <div class="text-3xl font-bold"><span class="text-blue-600">Data</span><span class="text-gray-800">First</span></div>
-        </a>
-
-        <div class="hidden lg:flex space-x-8">
-          <a href="#services" class="text-gray-800 hover:text-blue-600 font-medium transition-colors">Services</a>
-          <a href="#about" class="text-gray-800 hover:text-blue-600 font-medium transition-colors">About</a>
-          <a href="#blog" class="text-gray-800 hover:text-blue-600 font-medium transition-colors">Blog</a>
-          <a href="#contact" class="text-gray-800 hover:text-blue-600 font-medium transition-colors">Contact</a>
-        </div>
-
-        <div class="hidden lg:block">
-          <a href="#contact" class="bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-6 rounded-full transition-colors">
-            Get Free Consultation
-          </a>
-        </div>
-
-        <button id="mobile-menu-button" class="lg:hidden text-gray-800">
-          <i class="fas fa-bars text-2xl"></i>
-        </button>
-      </div>
-
-      <!-- Mobile Menu -->
-      <div id="mobile-menu" class="lg:hidden hidden bg-white absolute left-0 right-0 shadow-lg z-20">
-        <div class="container mx-auto px-6 py-4 space-y-4">
-          <a href="#services" class="block text-gray-800 hover:text-blue-600 font-medium transition-colors">Services</a>
-          <a href="#about" class="block text-gray-800 hover:text-blue-600 font-medium transition-colors">About</a>
-          <a href="#blog" class="block text-gray-800 hover:text-blue-600 font-medium transition-colors">Blog</a>
-          <a href="#contact" class="block text-gray-800 hover:text-blue-600 font-medium transition-colors">Contact</a>
-          <a href="#contact" class="block bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-6 rounded-full transition-colors text-center">
-            Get Free Consultation
-          </a>
-        </div>
-      </div>
-    </nav>
-
-    <!-- Hero Section -->
-    <header class="relative bg-white py-24 lg:py-32 overflow-hidden">
-      <div class="absolute -top-24 -right-24 w-96 h-96 bg-blue-100 rounded-full opacity-70"></div>
-      <div class="absolute -bottom-24 -left-24 w-64 h-64 bg-yellow-100 rounded-full opacity-70"></div>
-
-      <div class="container mx-auto px-6 relative">
-        <div class="grid lg:grid-cols-2 gap-16 items-center">
+<?php
+$pageTitle = "B2B SEO Solutions";
+$currentPage = 'home';
+$isHomePage = true;
+$bodyClass = 'bg-gray-50';
+include 'components/head.php';
+include 'components/navigation.php';
+?>
+<div class="grid lg:grid-cols-2 gap-16 items-center">
           <div data-aos="fade-right">
             <h5 class="text-blue-600 font-semibold mb-4">B2B SEO Experts</h5>
             <h1 class="text-4xl lg:text-5xl xl:text-6xl font-extrabold mb-6 leading-tight">
@@ -600,84 +545,5 @@
         </div>
       </div>
     </section>
-
-    <!-- Footer -->
-    <footer class="bg-gray-900 text-white pt-16 pb-8">
-      <div class="container mx-auto px-6">
-        <div class="grid xl:grid-cols-4 md:grid-cols-2 gap-12">
-          <div class="col-span-1 lg:col-span-1">
-            <div class="text-3xl font-bold mb-6"><span class="text-blue-400">Data</span><span>First</span></div>
-            <p class="text-gray-400 mb-6">Helping B2B companies transform their digital presence into a predictable source of revenue.</p>
-            <div class="flex space-x-4">
-              <a
-                href="https://ca.linkedin.com/company/datafirstseo"
-                class="bg-gray-800 hover:bg-blue-600 w-10 h-10 rounded-full flex items-center justify-center transition-colors"
-              >
-                <i class="fab fa-linkedin-in"></i>
-              </a>
-              <a
-                href="https://www.facebook.com/DataFirstSEO"
-                class="bg-gray-800 hover:bg-blue-600 w-10 h-10 rounded-full flex items-center justify-center transition-colors"
-              >
-                <i class="fab fa-facebook-f"></i>
-              </a>
-            </div>
-          </div>
-
-          <div>
-            <h4 class="text-xl font-bold mb-6">Services</h4>
-            <ul class="space-y-3">
-              <li><a href="#" class="text-gray-400 hover:text-white footer-link block">Technical SEO</a></li>
-              <li><a href="#" class="text-gray-400 hover:text-white footer-link block">Keyword Research</a></li>
-              <li><a href="#" class="text-gray-400 hover:text-white footer-link block">Content Strategy</a></li>
-              <li><a href="#" class="text-gray-400 hover:text-white footer-link block">On-Page Optimization</a></li>
-              <li><a href="#" class="text-gray-400 hover:text-white footer-link block">Link Building</a></li>
-              <li><a href="#" class="text-gray-400 hover:text-white footer-link block">Analytics & Reporting</a></li>
-            </ul>
-          </div>
-
-          <div>
-            <h4 class="text-xl font-bold mb-6">Resources</h4>
-            <ul class="space-y-3">
-              <li><a href="#" class="text-gray-400 hover:text-white footer-link block">Blog</a></li>
-              <li><a href="#" class="text-gray-400 hover:text-white footer-link block">Guides & Ebooks</a></li>
-              <li><a href="#" class="text-gray-400 hover:text-white footer-link block">SEO Calculator</a></li>
-              <li><a href="#" class="text-gray-400 hover:text-white footer-link block">Industry Reports</a></li>
-            </ul>
-          </div>
-
-          <div>
-            <h4 class="text-xl font-bold mb-6">Contact</h4>
-            <ul class="space-y-3 text-gray-400">
-              <li class="flex items-start">
-                <i class="fas fa-map-marker-alt mt-1 mr-3"></i>
-                <span>#209-418 East Broadway<br />Vancouver, BC V5T 1X2</span>
-              </li>
-              <li class="flex items-start">
-                <i class="fas fa-envelope mt-1 mr-3"></i>
-                <a href="mailto:stefan@datafirstseo.com" class="hover:text-white transition-colors">stefan@datafirstseo.com</a>
-              </li>
-              <li class="flex items-start">
-                <i class="fas fa-phone mt-1 mr-3"></i>
-                <span>(604) 555-1234</span>
-              </li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="mt-12 pt-8 border-t border-gray-800 text-center">
-          <p class="text-gray-400">&copy; 2025 DataFirst SEO. All rights reserved.</p>
-          <div class="mt-4 flex justify-center space-x-6">
-            <a href="terms-of-service.html" class="text-sm text-gray-400 hover:text-white">Terms of Service</a>
-            <a href="#" class="text-sm text-gray-400 hover:text-white">Privacy Policy</a>
-            <a href="privacy-policy.html" class="text-sm text-gray-400 hover:text-white">Sitemap</a>
-          </div>
-        </div>
-      </div>
-    </footer>
-
-    <!-- Scripts -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-    <script src="js/scripts.js"></script>
-  </body>
-</html>
+    <?php include 'components/footer.php'; ?>
+<?php include 'components/scripts.php'; ?>
